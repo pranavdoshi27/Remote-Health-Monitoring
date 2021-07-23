@@ -1,0 +1,43 @@
+.my-form
+{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.my-form .row,.my-form .form-check
+{
+    margin-left: 10%;
+    margin-right: 0%;
+    padding-bottom: 3%;
+}
+/* class for seacrh box position */
+
+.search-box{
+  width: 50%;
+    margin: 2% auto 4% auto;
+
+}
+
+.temp{
+margin-left: 11%;
+}
+
+.radio-temp{
+  padding-left: 0px;
+}
+
+@media (max-width:772px) {
+
+  .my-form .row,.my-form .form-check
+  {
+      margin-left: 2%;
+      margin-right:2%;
+      padding-bottom: 3%;
+  }
+  .temp{
+  margin-left: 5%;
+  }
+  .radio-temp{
+    padding-left: 4%;
+  }
+}
